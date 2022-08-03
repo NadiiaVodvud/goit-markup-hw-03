@@ -64,7 +64,7 @@ img {
 
 /* site nav */
 .page-header {
-  border: 1px solid rgba(75, 75, 75, 0.1);
+  border-bottom: 1px solid rgba(75, 75, 75, 0.1);
   border-radius: 4px;
 }
 .header-box {
@@ -308,6 +308,7 @@ img {
   text-decoration: none;
 }
 .address-map {
+  margin-top: 20px;
   color: #ffffff;
 }
 .address.list {
@@ -329,14 +330,9 @@ img {
   flex-direction: nowrap;
   margin-bottom: 50px;
 }
-.buttons-group:not(:last-child) {
-  margin-right: 8px;
-}
-
 .buttons {
   min-width: 29px;
   min-height: 26px;
-  margin-left: 8px;
   border-radius: 4px;
   padding: 6px 22px;
   font-family: var(--main-font);
@@ -347,6 +343,9 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+}
+.buttons-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .buttons:hover,
